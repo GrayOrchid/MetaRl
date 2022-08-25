@@ -10,7 +10,7 @@
  a {
      color: black;
 }
- .section-first{
+ .section-first {
 }
  .section-second {
      margin-top: 110px;
@@ -92,8 +92,8 @@
      transition: .5s;
 }
  .content {
-     width:100%;
-     height:653px;
+     width: 100%;
+     height: 653px;
      display: flex;
      align-items: center;
 }
@@ -125,7 +125,7 @@
 }
  .content-img {
 }
- .btn{
+ .btn {
      width: 200px;
      height: 60px;
      display: flex;
@@ -141,22 +141,22 @@
      color: #000000;
      cursor: pointer;
 }
- .__justify{
+ .__justify {
      align-items: initial;
      display: flex;
      justify-content: space-between;
 }
- .card{
+ .card {
      height: 550px;
      width: 360px;
 }
- .card-img{
+ .card-img {
      margin-top: 50px;
 }
  .info {
      margin-top: 50px;
 }
- .info-solid{
+ .info-solid {
      width: 2px;
      height: 124px;
      background-color: #8DFD1B;
@@ -189,7 +189,7 @@
      margin-top: 20px;
      color: #FFFFFF;
 }
- .info-button{
+ .info-button {
      margin-top: 30px;
      width: 250px;
      height: 42px;
@@ -204,25 +204,23 @@
      justify-content: center;
      align-items: center;
      color: #FFFFFF;
-     border:1px #8DFD1B solid;
+     border: 1px #8DFD1B solid;
      cursor: pointer;
 }
  .section-third {
-}
- .__container {
 }
  .section-third--titles {
      display: flex;
      justify-content: space-between;
      overflow: hidden;
 }
- .__left{
+ .__left {
      margin-left: -180px;
 }
- .__right{
+ .__right {
      margin-right: -182px;
 }
- .section-third--title{
+ .section-third--title {
      height: 88px;
      font-family: 'Audiowide';
      font-style: normal;
@@ -235,11 +233,11 @@
  .artists {
      height: 978px;
      display: flex;
-     flex-wrap:wrap ;
+     flex-wrap: wrap;
 }
  .artists-items {
-     width:245px;
-     height:309px;
+     width: 245px;
+     height: 309px;
      margin: 60px;
      text-align: center;
 }
@@ -259,20 +257,20 @@
      text-align: center;
      color: #FFFFFF;
 }
- .section-four{
+ .section-four {
 }
- .__center{
+ .__center {
      width: 100%;
      text-align: center;
 }
- .content{
+ .content {
 }
- .tabs{
-     width:100%;
-     height:538px;
+ .tabs {
+     width: 100%;
+     height: 538px;
      display: flex;
 }
- .tabs-btn{
+ .tabs-btn {
      height: 72px;
      width: 282px;
      font-family: 'DM Mono';
@@ -285,13 +283,13 @@
      justify-content: center;
      cursor: pointer;
 }
- .active{
+ .active {
      background-color: #222222;
      color: #8DFD1B;
 }
- .tabs-info{
+ .tabs-info {
 }
- .__bg--grey{
+ .__bg--grey {
      display: flex;
      background-color: #222222;
      height: 100%;
@@ -300,24 +298,24 @@
      align-items: center;
      justify-content: space-around;
 }
- .info-img{
+ .info-img {
      width: 272px;
      height: 350px;
 }
- .info-img img{
+ .info-img img {
      width: 100%;
      height: 100%;
 }
- .footer-img{
+ .footer-img {
      margin-top: 120px;
      z-index: -2;
 }
- .footer-img img{
+ .footer-img img {
      height: 240px;
      width: 100%;
      z-index: 1;
 }
- .section-five{
+ .section-five {
 }
  .circles {
      margin-top: 250px;
@@ -336,7 +334,7 @@
 }
  .circles-item {
      border-radius: 50%;
-     border:1px #8DFD1B solid;
+     border: 1px #8DFD1B solid;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -344,12 +342,12 @@
  .__first {
      width: 700px;
      height: 700px;
-     border:1px #2a470d solid;
+     border: 1px #2a470d solid;
 }
  .__second {
      width: 500px;
-     height:500px;
-     border:1px #427013 solid;
+     height: 500px;
+     border: 1px #427013 solid;
 }
  .__third {
      width: 350px;
@@ -363,63 +361,102 @@
      width: 150px;
      height: 150px;
 }
- .__left--circle{
+ .__left--circle {
      margin-left: 52%;
 }
-.phases{
-    
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
- 
+ .phases {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
 }
-.phase {
-    width: 800px;
-    height: 400px;
-    border:1px red solid;
-    margin-top: 100px;
- 
-    z-index: 999;
-    background-color: #222222;
+ .phase {
+     width: 800px;
+     height: 430px;
+     border: 1px #8DFD1B solid;
+     z-index: 999;
+     background-color: #222222;
 }
-.phase-top {
-    font-family: 'DM Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    display: flex;
-    border:1px #8DFD1B solid;
-    height: 100px;
+ .__mr-top {
+     margin-top: 100px;
 }
-.phase-numb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-   
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    background-color:   #8DFD1B;
-color: #000;
-margin: 1rem 0.5rem;
+ .phase-top {
+     font-family: 'DM Mono';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 16px;
+     display: flex;
+     border: 1px #8DFD1B solid;
+     height: 100px;
 }
-.phase-info {
-
-margin-top: 1.3rem;
-
+ .phase-numb {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 60px;
+     width: 60px;
+     font-size: 30px;
+     border: 1px #8DFD1B solid;
+     color: #000;
+     margin: 1rem 0.5rem;
+     color: #8DFD1B;
 }
-.phase-status {
-    color: #8DFD1B;
-    font-size: 16px;
-
+ .__bg-8DFD1B {
+     background: #8DFD1B;
+     color: #000;
 }
-.phase-date {
-    font-size: 30px;
-    margin-top: 10px;
+ .phase-info {
+     margin-top: 1.3rem;
 }
-.phase-bottom {
+ .phase-status {
+     color: #8DFD1B;
+     font-size: 16px;
+}
+ .phase-date {
+     font-size: 30px;
+     margin-top: 10px;
+}
+ .phase-bottom {
+     display: flex;
+     justify-content: space-between;
+}
+ .phase-info {
+}
+ .phase-about {
+     margin: 3rem;
+     width: 100%;
+}
+ .phase-text {
+     font-family: 'DM Mono';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     width: 100%;
+     color: #FFFFFF;
+     margin-top: .5rem;
+}
+ .phase-img img {
+     width: 200px;
+     height: 200px;
+     border-radius: 10px;
+     margin: 3rem;
+}
+ .phase-meeting {
+     margin: .5rem;
+     width: 500px;
+}
+ .phases-solid {
+     width: 100%;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .phases-solid span {
+     width: 1px;
+     height: 75px;
+     background: #8DFD1B;
 }
